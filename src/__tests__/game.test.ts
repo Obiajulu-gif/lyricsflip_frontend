@@ -1,8 +1,6 @@
 import { useGameStore } from '@/store/game';
 import { act, renderHook } from '@testing-library/react';
 
-// Jest automatically provides these globals, so we don't need to import them
-// describe, beforeEach, test, expect are available globally in Jest
 
 describe('Game Store', () => {
   beforeEach(() => {
